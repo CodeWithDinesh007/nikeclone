@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+.topnav{
+    width: 100%;
+    height: 2.25rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    width: 90vw;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.leftcontent{
+    width: 44.5rem;
+    height: 100%;
+    /* background: lightblue; */
+    display: flex;
+    align-items: center;
+}
+
+.leftcontent img{
+    width : 24px;
+    height:24px
+}
+
+.rightcontent{
+    width: 44.5rem;
+    height: 100%;
+    /* background: darkblue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.verticalline{
+    height: 0.85rem;
+
+    border-right: 1px solid black;
+    margin: 10px;
+}
+
+/* second navbar start here */
+
+.contents1{
+    width: 100%;
+    height: 3.75rem;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; 
+    position: sticky;
+    top: 0px;  
+    
+   
+}
+
+
+
+
+.nikelogo{
+    width: 14.8rem;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nikelogosvg{
+    width: 78px;
+    height: 78px;
+}
+
+.centertab{
+    width: 51.9rem;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+}
+
+
+
+.para{
+    padding: 20px 20px 2px  20px;
+}
+
+.para:hover{
+    border-bottom-width: 5px;
+    border-bottom: 2px solid black;
+}
+
+
+.righttab{
+    width: 22.2rem;
+    height: 100%;
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.searchbar{
+    width: 11.25rem;
+    height: 70%;
+    border-radius: 50px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+
+.searchimgicon{
+    /* background-color: yellow; */
+    /* margin-left: 5px; */
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.searchimgicon:hover{
+    background-color: #CACACB;
+}
+
+
+#searchinput{
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+    position:relative;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    
+    
+}
+
+
+
+.heart{
+    width: 2.1rem;
+    height: 2.1rem;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.heart:hover{
+    border-radius: 25px;
+    background-color: #CACACB;
+}
+
+.bag:hover{
+    border-radius: 25px;
+    background-color: #CACACB;
+}
+
+.offercontent{
+    width: 100%;
+    height: 4.6rem;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offercontent p{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+#topnavlink{
+    font-size: 0.85rem;
+}   
+
+.contentheroimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.contentheroimg1 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.herocontent{
+    width: 100%;
+    height: 10rem;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.herocontent h3 {
+    font-weight: bolder;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+.herocontent p {
+    font-size: 0.95rem;
+}
+
+.herocontent button{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 4.8rem;
+    height: 2.6rem;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    
+}
+
+.herocontent button a:visited{
+    color: white;
+}
+
+.herocontent button a{
+    text-decoration: none;
+}
+
+
+.herocontent1{
+    width: 95%;
+    height: 42.3rem;
+    /* background-color: yellow; */
+    margin:auto;
+}
+
+.herocontent1 p{
+    font-size: 1.5rem;
+}
+
+.herocontent1imgs img{
+    width: 100%;
+    height: 100%;
+    padding: 1.1rem;
+}
+
+.herocontent1 ul{
+    display: flex;
+}
+
+.herocontent1 ul li{
+    list-style: none;
+}
+
+.herocontent1text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    
+ 
+}
+
+
+.herocontent1text a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.herocontent1text p a:visited{
+    
+    color: black;
+}
+
+
+/* .contentheroimg video{
+    width: 100%;
+    height: 100%;
+} */
+
+
+.herocontentt{
+    width: 100%;
+    height: 10rem;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.herocontentt h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    /* letter-spacing: 0.2rem; */
+}
+.herocontentt p {
+    font-size: 0.85rem;
+}
+
+
+.herocontentt button{
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 4.8rem;
+    height: 2.6rem;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    
+}
+
+.herocontentt button a{
+    text-decoration: none;
+}
+
+.herocontentt button a:visited{
+    color: white;
+}
+
+
+footer{
+    width: 100%;
+    height: 30rem;
+    /* background-color: yellow; */
+}
+.line{
+    width: 89rem;
+    border: 1px solid #E5E5E5;
+    margin: auto;
+    
+}
+
+.footer-menu-column{
+    width: 89rem;
+    height: max-content;
+    /* background-color: yellow; */
+    display: flex;
+   
+}
+
+.menu-column{
+    width: 21.6rem;
+    height: max-content;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px 0px 40px;
+    
+}
+
+.menu-column p{
+    padding: 10px;
+    color: #707072;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+#mainhead{
+    position: relative;
+    font-weight: 500;
+    color: #111111;
+    font-size: 0.95rem;
+}
+
+.copyright {
+    margin-top: 50px;
+    font-size: 0.90rem;
+    color: rgb(112, 112, 114);
+    font-weight: 600;
+}
+
+.copyright ul{
+    display: flex;
+}
+
+.copyright ul li{
+    padding: 0px 0px 0px 50px;
+    list-style: none;
+}
+
+
+@media (max-width: 600px) {
+    
+    .topnav{
+        display: none;
+    }
+    .contents1{
+        width: 100%;
+        height: 3.75rem;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center; 
+        position: sticky;
+        top: 0px;  
+        z-index: 100000;
+    }
+    .nikelogo{
+        width: 14.8rem;
+        height: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    #nikelogosvg{
+        width: 78px;
+        height: 78px;
+    }
+    
+    .centertab{
+        width: 51.9rem;
+        height: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .para{
+        display: none;
+    }
+    
+    .righttab{
+        width: 22.2rem;
+        height: 100%;
+        /* background-color: darkblue; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .searchbar{
+        width: 3rem;
+        height: 70%;
+        border-radius: 50px;
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    
+    .searchimgicon{
+        /* background-color: yellow; */
+        /* margin-left: 5px; */
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: all 0.3s ease-in-out 0s;
+    }
+     
+    
+    #searchinput{
+        display: none;
+        
+    }
+
+    .heart{
+        width: 2.1rem;
+        height: 2.1rem;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+
+    }
+
+    /* hero content starts here */
+    
+
+    .contentheroimg img{
+        width: 200%;
+        height: 100%;
+        /* transform-origin: left top; */
+        /* transform: scale(2); */
+    }
+
+    .herocontent{
+        width: 100%;
+        height: 10rem;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .herocontent h3 {
+        font-weight: bolder;
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .herocontent p {
+        font-size: 0.75rem;
+    }
+    
+    .herocontent button{
+        outline: none;
+        border: none;
+        background-color: black;
+        color: white;
+        width: 4.5rem;
+        height: 2rem;
+        border-radius: 25px;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        
+    }
+    
+    /* herocontent1 stats here buddy */
+
+    .herocontent1{
+        width: 95%;
+        height: 42.3rem;
+        /* background-color: yellow; */
+        margin:auto;
+    }
+    
+    .herocontent1 p{
+        font-size: 1.2rem;
+    }
+    
+    .herocontent1imgs img{
+        width: 100%;
+        height: 100%;
+        padding: 1.1rem;
+    }
+    
+    .herocontent1 ul{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .herocontent1 ul li{
+        list-style: none;
+    }
+    
+    .herocontent1text{
+      display: none;
+     
+    }
+    
+    
+    .herocontent1text a{
+      display: none;
+    }
+
+    .contentheroimg1 img{
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+        object-position: left center;
+        position: relative;
+        top: 571px;
+    }
+    .herocontentt {
+        position: relative;
+        top: 450px;
+    }
+    
+    /* footer content start here */
+
+    .footer-menu-column{
+        width: 89rem;
+        height: max-content;
+        /* background-color: yellow; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+       
+    }
+    
+    .menu-column{
+        width: 21.6rem;
+        height: max-content;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 0px 20px;
+        position: relative;
+        top: 400px;
+        
+    }
+    
+    .menu-column p{
+        padding: 10px;
+        color: #707072;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+    
+    #mainhead{
+        position: relative;
+        font-weight: 500;
+        color: #111111;
+        font-size: 0.95rem;
+    }
+    
+    .copyright {
+        margin-top: 400px;
+        font-size: 0.90rem;
+        color: rgb(112, 112, 114);
+        font-weight: 600;
+    }
+    
+    .copyright ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .copyright ul li{
+        padding: 20px 0px 0px 20px;
+        list-style: none;
+    }
+
+  }
